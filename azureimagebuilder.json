@@ -30,7 +30,7 @@
 		},
 		"SIGImageDefinitionId": {
 			"type": "string",
-			"defaultValue": "/subscriptions/b03245be-fce6-4df9-a451-1d0846fae324/resourceGroups/RG_AzureImageBuilder813/providers/Microsoft.Compute/galleries/azureimagebuilder813",
+			"defaultValue": "",
 			"metadata": {
 				"description": "Id of Shared Image Gallery to distribute image to, eg: /subscriptions/<subscriptionID>/resourceGroups/<SIG resourcegroup>/providers/Microsoft.Compute/galleries/<SIG name>/images/<image definition>"
 			}
