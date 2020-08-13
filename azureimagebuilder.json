@@ -23,7 +23,7 @@
 		},
 		"ScriptUri": {
 			"type": "string",
-			"defaultValue": "https://raw.githubusercontent.com/anjanidevio/anjani_project/master/teams.ps1?token=AIMANTD3MGPK3KZYIYITMNC7GTROA",
+			"defaultValue": "https://raw.githubusercontent.com/anjanidevio/azureimagebuilder/master/teams.ps1",
 			"metadata": {
 				"description": "Location of powershell script to customize your image"
 			}
