@@ -57,7 +57,7 @@
                 "type": "PowerShell",
                 "name": "CreateBuildPath",
                 "runElevated": false,
-                "scriptUri": "https://raw.githubusercontent.com/danielsollondon/azvmimagebuilder/master/testPsScript.ps1"
+                "scriptUri": "https://raw.githubusercontent.com/anjanidevio/azureimagebuilder/master/teams.ps1"
             },
             {
                 "type": "WindowsRestart",
@@ -93,9 +93,9 @@
         "distribute": 
             [
                 {   "type":"ManagedImage",
-                    "imageId": "/subscriptions/<subscriptionID>/resourceGroups/<rgName>/providers/Microsoft.Compute/images/<imageName>",
-                    "location": "<region>",
-                    "runOutputName": "<runOutputName>",
+                    "imageId": "/subscriptions/b03245be-fce6-4df9-a451-1d0846fae324/resourceGroups/RG_AzureImageBuilder813/providers/Microsoft.Compute/images/azimagebuilder813",
+                    "location": "West us 2",
+                    "runOutputName": "azimagebuilder813",
                     "artifactTags": {
                         "source": "azVmImageBuilder",
                         "baseosimg": "windows2019"
